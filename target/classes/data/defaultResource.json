@@ -1,0 +1,10 @@
+{
+  "name": "Solar Panel",
+  "trademark": "EcoEnergy",
+  "stock": 150,
+  "price": 299.99,
+  "description": "High-efficiency solar panel for residential use.",
+  "tags": "solar, energy, eco-friendly",
+  "active": true,
+  "id": "1"
+}

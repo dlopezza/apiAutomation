@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: com.testing.api.runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.400 s <<< FAILURE! -- in com.testing.api.runner.TestRunner
+Client testing CRUD.Read details of an existing client -- Time elapsed: 0.083 s <<< ERROR!
+io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in com.testing.api.stepDefinitions.ClientSteps.theResponseShouldHaveTheFollowingDetails(io.cucumber.datatable.DataTable) and com.testing.api.stepDefinitions.ResourceSteps.theResponseShouldHaveTheFollowingDetails(io.cucumber.datatable.DataTable)
+	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:278)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:272)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:148)
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:163)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:146)
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:226)
+
+com.testing.api.runner.TestRunner -- Time elapsed: 0.400 s <<< ERROR!
+io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in com.testing.api.stepDefinitions.ClientSteps.theResponseShouldHaveTheFollowingDetails(io.cucumber.datatable.DataTable) and com.testing.api.stepDefinitions.ResourceSteps.theResponseShouldHaveTheFollowingDetails(io.cucumber.datatable.DataTable)
+	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:278)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:272)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:148)
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:163)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:146)
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:226)
+

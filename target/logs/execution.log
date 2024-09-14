@@ -1,0 +1,848 @@
+2024-09-14 00:07:29.172 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-09-14 00:07:29.177 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Read details of an existing client
+2024-09-14 00:07:29.178 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-09-14 00:07:32.150 INFO [api.stepDefinitions.ClientSteps:29] - [
+    {
+        "name": "John",
+        "lastName": "Doe",
+        "country": "USA",
+        "city": "New York",
+        "email": "john.doe@example.com",
+        "phone": "555-9876543",
+        "id": "2"
+    },
+    {
+        "name": "John",
+        "lastName": "Doe",
+        "country": "USA",
+        "city": "New York",
+        "email": "john.doe@example.com",
+        "phone": "555-9876543",
+        "id": "3"
+    }
+]
+2024-09-14 00:07:32.920 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-09-14 00:07:32.921 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Read details of an existing client
+2024-09-14 00:07:32.921 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-09-14 00:07:32.943 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-09-14 00:07:32.943 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Create a new client
+2024-09-14 00:07:32.944 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-09-14 00:07:32.962 INFO [api.stepDefinitions.ClientSteps:53] - Client mapped: Client(id=2, name=John, lastName=Doe, country=USA, city=New York, email=john.doe@example.com, phone=555-9876543)
+2024-09-14 00:07:33.431 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-09-14 00:07:33.433 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Create a new client
+2024-09-14 00:07:33.433 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-09-14 00:07:33.456 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-09-14 00:07:33.457 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: View all the clients
+2024-09-14 00:07:33.457 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-09-14 00:07:33.794 INFO [api.stepDefinitions.ClientSteps:29] - [
+    {
+        "name": "John",
+        "lastName": "Doe",
+        "country": "USA",
+        "city": "New York",
+        "email": "john.doe@example.com",
+        "phone": "555-9876543",
+        "id": "2"
+    },
+    {
+        "name": "John",
+        "lastName": "Doe",
+        "country": "USA",
+        "city": "New York",
+        "email": "john.doe@example.com",
+        "phone": "555-9876543",
+        "id": "3"
+    },
+    {
+        "name": "John",
+        "lastName": "Doe",
+        "country": "USA",
+        "city": "New York",
+        "email": "john.doe@example.com",
+        "phone": "555-9876543",
+        "id": "4"
+    }
+]
+2024-09-14 00:07:34.123 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-09-14 00:07:34.123 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: View all the clients
+2024-09-14 00:07:34.124 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-09-14 00:07:34.133 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-09-14 00:07:34.133 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update client details
+2024-09-14 00:07:34.134 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-09-14 00:07:34.379 INFO [api.stepDefinitions.ClientSteps:29] - [
+    {
+        "name": "John",
+        "lastName": "Doe",
+        "country": "USA",
+        "city": "New York",
+        "email": "john.doe@example.com",
+        "phone": "555-9876543",
+        "id": "2"
+    },
+    {
+        "name": "John",
+        "lastName": "Doe",
+        "country": "USA",
+        "city": "New York",
+        "email": "john.doe@example.com",
+        "phone": "555-9876543",
+        "id": "3"
+    },
+    {
+        "name": "John",
+        "lastName": "Doe",
+        "country": "USA",
+        "city": "New York",
+        "email": "john.doe@example.com",
+        "phone": "555-9876543",
+        "id": "4"
+    }
+]
+2024-09-14 00:07:34.632 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-09-14 00:07:34.632 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Update client details
+2024-09-14 00:07:34.632 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-09-14 00:07:34.642 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-09-14 00:07:34.642 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Delete an existing client
+2024-09-14 00:07:34.643 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-09-14 00:07:34.936 INFO [api.stepDefinitions.ClientSteps:29] - [
+    {
+        "name": "John",
+        "lastName": "Doe",
+        "country": "USA",
+        "city": "New York",
+        "email": "john.doe@example.com",
+        "phone": "555-9876543",
+        "id": "2"
+    },
+    {
+        "name": "John",
+        "lastName": "Doe",
+        "country": "USA",
+        "city": "New York",
+        "email": "john.doe@example.com",
+        "phone": "555-9876543",
+        "id": "3"
+    },
+    {
+        "name": "John",
+        "lastName": "Doe",
+        "country": "USA",
+        "city": "New York",
+        "email": "john.doe@example.com",
+        "phone": "555-9876543",
+        "id": "4"
+    }
+]
+2024-09-14 00:07:35.180 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-09-14 00:07:35.181 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Delete an existing client
+2024-09-14 00:07:35.181 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-09-14 00:07:35.200 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-09-14 00:07:35.200 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Read details of an existing resource
+2024-09-14 00:07:35.200 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-09-14 00:07:35.512 INFO [api.stepDefinitions.ResourceSteps:28] - [
+    {
+        "name": "Gorgeous Paper Computer",
+        "trademark": "Deckow, Robel and Kiehn",
+        "stock": 732,
+        "price": 665822.4,
+        "description": "Delectus reprehenderit ut suscipit consectetur. Repellat vero aspernatur nisi dolorum sapiente nihil. Ab sit est repellendus sit modi. Occaecati nisi soluta voluptas voluptas corrupti. Reprehenderit dolor suscipit nemo beatae quis.",
+        "tags": "id",
+        "active": false,
+        "id": "2"
+    },
+    {
+        "name": "Durable Granite Car",
+        "trademark": "Sipes, O'Keefe and Bailey",
+        "stock": 134,
+        "price": 720908.8,
+        "description": "Dolor cum ratione. Autem nam facere laborum veritatis illo ut ullam. Molestias consequatur quasi consequatur omnis non tempore totam. Neque sint aperiam eligendi aut ut ducimus. Eos cupiditate harum impedit adipisci quo et.",
+        "tags": "id",
+        "active": false,
+        "id": "3"
+    },
+    {
+        "name": "Sleek Rubber Clock",
+        "trademark": "Leuschke Inc",
+        "stock": 143,
+        "price": 447304,
+        "description": "Asperiores enim voluptas totam ullam at. Provident sapiente harum dolores. Nihil ullam error ratione ipsum maiores accusantium consequatur. Aliquid voluptate quia incidunt repellendus illo sequi.",
+        "tags": "id",
+        "active": false,
+        "id": "4"
+    },
+    {
+        "name": "Small Steel Bench",
+        "trademark": "Welch Group",
+        "stock": 573,
+        "price": 626399.06,
+        "description": "Cumque veritatis quibusdam ducimus quasi. Earum explicabo inventore quam. Quod reiciendis aliquid adipisci impedit. Nemo eligendi cum. Illo maxime iure ut consectetur tempore natus quas.",
+        "tags": "id",
+        "active": false,
+        "id": "5"
+    },
+    {
+        "name": "Incredible Leather Bag",
+        "trademark": "Hills and Sons",
+        "stock": 643,
+        "price": 438351.62,
+        "description": "Beatae magnam atque voluptatibus ut molestiae. Error voluptatem veniam vel at accusantium doloribus iure. Ipsum debitis ab deleniti nulla excepturi animi. Iure vero unde tenetur accusantium consequatur tempora.",
+        "tags": "id",
+        "active": false,
+        "id": "6"
+    },
+    {
+        "name": "Synergistic Rubber Plate",
+        "trademark": "Emard Inc",
+        "stock": 631,
+        "price": 377546.75,
+        "description": "Fuga rerum iure aut in soluta. Numquam officia odio adipisci illum. Nam ullam maxime cum dignissimos libero sit.",
+        "tags": "id",
+        "active": false,
+        "id": "7"
+    },
+    {
+        "name": "Enormous Rubber Lamp",
+        "trademark": "Hackett, Waters and Lesch",
+        "stock": 53,
+        "price": 974319.4,
+        "description": "In minus vero. Quod tempora quos necessitatibus. Numquam ipsam omnis dolorum neque esse nobis. Mollitia impedit vero minus. Explicabo saepe quo nihil earum soluta.",
+        "tags": "id",
+        "active": false,
+        "id": "8"
+    },
+    {
+        "name": "Awesome Wool Table",
+        "trademark": "Rowe, McKenzie and Donnelly",
+        "stock": 567,
+        "price": 548569.25,
+        "description": "Eveniet explicabo possimus ipsam fugiat nesciunt assumenda cupiditate. Animi quasi atque. Ullam impedit recusandae dicta magnam blanditiis blanditiis. Reiciendis cupiditate ab accusantium esse eaque rem perspiciatis.",
+        "tags": "id",
+        "active": false,
+        "id": "9"
+    },
+    {
+        "name": "Small Paper Shoes",
+        "trademark": "Grimes-Hettinger",
+        "stock": 872,
+        "price": 967423.2,
+        "description": "Quae cupiditate repellendus esse. Adipisci est animi soluta facere. Ex porro aliquid consectetur. Quidem illo dolore debitis assumenda nisi repudiandae.",
+        "tags": "id",
+        "active": false,
+        "id": "10"
+    },
+    {
+        "name": "Gorgeous Linen Chair",
+        "trademark": "Krajcik LLC",
+        "stock": 750,
+        "price": 578072.3,
+        "description": "Ratione provident dolor. Optio quae occaecati at. Temporibus facere porro in deleniti.",
+        "tags": "id",
+        "active": false,
+        "id": "11"
+    },
+    {
+        "name": "Awesome Bronze Shirt",
+        "trademark": "Hackett, Champlin and Ryan",
+        "stock": 696,
+        "price": 940501.6,
+        "description": "Cum at maxime quos. Alias facilis consequuntur tenetur. Minus odio cupiditate repellendus. Quidem minima tempora eaque aliquid quaerat expedita hic. Doloremque nobis possimus maxime esse.",
+        "tags": "id",
+        "active": false,
+        "id": "12"
+    },
+    {
+        "name": "Awesome Silk Bench",
+        "trademark": "Champlin-Jacobs",
+        "stock": 672,
+        "price": 847387,
+        "description": "Commodi voluptate ipsam quia nostrum iste neque. A recusandae quaerat adipisci at distinctio unde assumenda. Voluptatum in ipsam eos laboriosam distinctio vero.",
+        "tags": "id",
+        "active": false,
+        "id": "13"
+    },
+    {
+        "name": "Enormous Wooden Chair",
+        "trademark": "Hammes and Sons",
+        "stock": 66,
+        "price": 612778.9,
+        "description": "In iure consequatur fugiat facere a accusantium. Quidem saepe assumenda eligendi quam tempore placeat. Quis totam cupiditate explicabo hic reprehenderit. Suscipit iusto esse quos nesciunt temporibus.",
+        "tags": "id",
+        "active": false,
+        "id": "14"
+    },
+    {
+        "name": "Incredible Paper Keyboard",
+        "trademark": "Champlin, Borer and Renner",
+        "stock": 306,
+        "price": 484319.12,
+        "description": "Sit consequuntur non. Perferendis quam cupiditate voluptatibus consequuntur laboriosam eius. Deleniti omnis esse amet sit dolor.",
+        "tags": "id",
+        "active": true,
+        "id": "15"
+    },
+    {
+        "name": "ResourceTwo",
+        "trademark": "Trademark2",
+        "stock": 200,
+        "price": 49.99,
+        "description": "Description for Res2",
+        "tags": "Tag3, Tag4",
+        "active": false,
+        "id": "16"
+    },
+    {
+        "name": "ResourceTwo",
+        "trademark": "Trademark2",
+        "stock": 200,
+        "price": 49.99,
+        "description": "Description for Res2",
+        "tags": "Tag3, Tag4",
+        "active": false,
+        "id": "17"
+    }
+]
+2024-09-14 00:07:35.820 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-09-14 00:07:35.820 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Read details of an existing resource
+2024-09-14 00:07:35.820 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-09-14 00:07:35.866 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-09-14 00:07:35.867 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Create a new resource
+2024-09-14 00:07:35.867 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-09-14 00:07:35.879 INFO [api.stepDefinitions.ResourceSteps:53] - Resource mapped: Resource(name=ResourceTwo, trademark=Trademark2, stock=200, price=49.99, description=Description for Res2, tags=Tag3, Tag4, active=false, id=2)
+2024-09-14 00:07:36.222 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-09-14 00:07:36.222 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Create a new resource
+2024-09-14 00:07:36.222 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-09-14 00:07:36.229 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-09-14 00:07:36.229 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: View all the resources
+2024-09-14 00:07:36.229 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-09-14 00:07:36.493 INFO [api.stepDefinitions.ResourceSteps:28] - [
+    {
+        "name": "Gorgeous Paper Computer",
+        "trademark": "Deckow, Robel and Kiehn",
+        "stock": 732,
+        "price": 665822.4,
+        "description": "Delectus reprehenderit ut suscipit consectetur. Repellat vero aspernatur nisi dolorum sapiente nihil. Ab sit est repellendus sit modi. Occaecati nisi soluta voluptas voluptas corrupti. Reprehenderit dolor suscipit nemo beatae quis.",
+        "tags": "id",
+        "active": false,
+        "id": "2"
+    },
+    {
+        "name": "Durable Granite Car",
+        "trademark": "Sipes, O'Keefe and Bailey",
+        "stock": 134,
+        "price": 720908.8,
+        "description": "Dolor cum ratione. Autem nam facere laborum veritatis illo ut ullam. Molestias consequatur quasi consequatur omnis non tempore totam. Neque sint aperiam eligendi aut ut ducimus. Eos cupiditate harum impedit adipisci quo et.",
+        "tags": "id",
+        "active": false,
+        "id": "3"
+    },
+    {
+        "name": "Sleek Rubber Clock",
+        "trademark": "Leuschke Inc",
+        "stock": 143,
+        "price": 447304,
+        "description": "Asperiores enim voluptas totam ullam at. Provident sapiente harum dolores. Nihil ullam error ratione ipsum maiores accusantium consequatur. Aliquid voluptate quia incidunt repellendus illo sequi.",
+        "tags": "id",
+        "active": false,
+        "id": "4"
+    },
+    {
+        "name": "Small Steel Bench",
+        "trademark": "Welch Group",
+        "stock": 573,
+        "price": 626399.06,
+        "description": "Cumque veritatis quibusdam ducimus quasi. Earum explicabo inventore quam. Quod reiciendis aliquid adipisci impedit. Nemo eligendi cum. Illo maxime iure ut consectetur tempore natus quas.",
+        "tags": "id",
+        "active": false,
+        "id": "5"
+    },
+    {
+        "name": "Incredible Leather Bag",
+        "trademark": "Hills and Sons",
+        "stock": 643,
+        "price": 438351.62,
+        "description": "Beatae magnam atque voluptatibus ut molestiae. Error voluptatem veniam vel at accusantium doloribus iure. Ipsum debitis ab deleniti nulla excepturi animi. Iure vero unde tenetur accusantium consequatur tempora.",
+        "tags": "id",
+        "active": false,
+        "id": "6"
+    },
+    {
+        "name": "Synergistic Rubber Plate",
+        "trademark": "Emard Inc",
+        "stock": 631,
+        "price": 377546.75,
+        "description": "Fuga rerum iure aut in soluta. Numquam officia odio adipisci illum. Nam ullam maxime cum dignissimos libero sit.",
+        "tags": "id",
+        "active": false,
+        "id": "7"
+    },
+    {
+        "name": "Enormous Rubber Lamp",
+        "trademark": "Hackett, Waters and Lesch",
+        "stock": 53,
+        "price": 974319.4,
+        "description": "In minus vero. Quod tempora quos necessitatibus. Numquam ipsam omnis dolorum neque esse nobis. Mollitia impedit vero minus. Explicabo saepe quo nihil earum soluta.",
+        "tags": "id",
+        "active": false,
+        "id": "8"
+    },
+    {
+        "name": "Awesome Wool Table",
+        "trademark": "Rowe, McKenzie and Donnelly",
+        "stock": 567,
+        "price": 548569.25,
+        "description": "Eveniet explicabo possimus ipsam fugiat nesciunt assumenda cupiditate. Animi quasi atque. Ullam impedit recusandae dicta magnam blanditiis blanditiis. Reiciendis cupiditate ab accusantium esse eaque rem perspiciatis.",
+        "tags": "id",
+        "active": false,
+        "id": "9"
+    },
+    {
+        "name": "Small Paper Shoes",
+        "trademark": "Grimes-Hettinger",
+        "stock": 872,
+        "price": 967423.2,
+        "description": "Quae cupiditate repellendus esse. Adipisci est animi soluta facere. Ex porro aliquid consectetur. Quidem illo dolore debitis assumenda nisi repudiandae.",
+        "tags": "id",
+        "active": false,
+        "id": "10"
+    },
+    {
+        "name": "Gorgeous Linen Chair",
+        "trademark": "Krajcik LLC",
+        "stock": 750,
+        "price": 578072.3,
+        "description": "Ratione provident dolor. Optio quae occaecati at. Temporibus facere porro in deleniti.",
+        "tags": "id",
+        "active": false,
+        "id": "11"
+    },
+    {
+        "name": "Awesome Bronze Shirt",
+        "trademark": "Hackett, Champlin and Ryan",
+        "stock": 696,
+        "price": 940501.6,
+        "description": "Cum at maxime quos. Alias facilis consequuntur tenetur. Minus odio cupiditate repellendus. Quidem minima tempora eaque aliquid quaerat expedita hic. Doloremque nobis possimus maxime esse.",
+        "tags": "id",
+        "active": false,
+        "id": "12"
+    },
+    {
+        "name": "Awesome Silk Bench",
+        "trademark": "Champlin-Jacobs",
+        "stock": 672,
+        "price": 847387,
+        "description": "Commodi voluptate ipsam quia nostrum iste neque. A recusandae quaerat adipisci at distinctio unde assumenda. Voluptatum in ipsam eos laboriosam distinctio vero.",
+        "tags": "id",
+        "active": false,
+        "id": "13"
+    },
+    {
+        "name": "Enormous Wooden Chair",
+        "trademark": "Hammes and Sons",
+        "stock": 66,
+        "price": 612778.9,
+        "description": "In iure consequatur fugiat facere a accusantium. Quidem saepe assumenda eligendi quam tempore placeat. Quis totam cupiditate explicabo hic reprehenderit. Suscipit iusto esse quos nesciunt temporibus.",
+        "tags": "id",
+        "active": false,
+        "id": "14"
+    },
+    {
+        "name": "Incredible Paper Keyboard",
+        "trademark": "Champlin, Borer and Renner",
+        "stock": 306,
+        "price": 484319.12,
+        "description": "Sit consequuntur non. Perferendis quam cupiditate voluptatibus consequuntur laboriosam eius. Deleniti omnis esse amet sit dolor.",
+        "tags": "id",
+        "active": true,
+        "id": "15"
+    },
+    {
+        "name": "ResourceTwo",
+        "trademark": "Trademark2",
+        "stock": 200,
+        "price": 49.99,
+        "description": "Description for Res2",
+        "tags": "Tag3, Tag4",
+        "active": false,
+        "id": "16"
+    },
+    {
+        "name": "ResourceTwo",
+        "trademark": "Trademark2",
+        "stock": 200,
+        "price": 49.99,
+        "description": "Description for Res2",
+        "tags": "Tag3, Tag4",
+        "active": false,
+        "id": "17"
+    },
+    {
+        "name": "ResourceTwo",
+        "trademark": "Trademark2",
+        "stock": 200,
+        "price": 49.99,
+        "description": "Description for Res2",
+        "tags": "Tag3, Tag4",
+        "active": false,
+        "id": "18"
+    }
+]
+2024-09-14 00:07:37.219 INFO [api.stepDefinitions.ResourceSteps:115] - Successfully Validated schema from Resource List object
+2024-09-14 00:07:37.220 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-09-14 00:07:37.221 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: View all the resources
+2024-09-14 00:07:37.221 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-09-14 00:07:37.233 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-09-14 00:07:37.234 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update resource details
+2024-09-14 00:07:37.234 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-09-14 00:07:37.561 INFO [api.stepDefinitions.ResourceSteps:28] - [
+    {
+        "name": "Gorgeous Paper Computer",
+        "trademark": "Deckow, Robel and Kiehn",
+        "stock": 732,
+        "price": 665822.4,
+        "description": "Delectus reprehenderit ut suscipit consectetur. Repellat vero aspernatur nisi dolorum sapiente nihil. Ab sit est repellendus sit modi. Occaecati nisi soluta voluptas voluptas corrupti. Reprehenderit dolor suscipit nemo beatae quis.",
+        "tags": "id",
+        "active": false,
+        "id": "2"
+    },
+    {
+        "name": "Durable Granite Car",
+        "trademark": "Sipes, O'Keefe and Bailey",
+        "stock": 134,
+        "price": 720908.8,
+        "description": "Dolor cum ratione. Autem nam facere laborum veritatis illo ut ullam. Molestias consequatur quasi consequatur omnis non tempore totam. Neque sint aperiam eligendi aut ut ducimus. Eos cupiditate harum impedit adipisci quo et.",
+        "tags": "id",
+        "active": false,
+        "id": "3"
+    },
+    {
+        "name": "Sleek Rubber Clock",
+        "trademark": "Leuschke Inc",
+        "stock": 143,
+        "price": 447304,
+        "description": "Asperiores enim voluptas totam ullam at. Provident sapiente harum dolores. Nihil ullam error ratione ipsum maiores accusantium consequatur. Aliquid voluptate quia incidunt repellendus illo sequi.",
+        "tags": "id",
+        "active": false,
+        "id": "4"
+    },
+    {
+        "name": "Small Steel Bench",
+        "trademark": "Welch Group",
+        "stock": 573,
+        "price": 626399.06,
+        "description": "Cumque veritatis quibusdam ducimus quasi. Earum explicabo inventore quam. Quod reiciendis aliquid adipisci impedit. Nemo eligendi cum. Illo maxime iure ut consectetur tempore natus quas.",
+        "tags": "id",
+        "active": false,
+        "id": "5"
+    },
+    {
+        "name": "Incredible Leather Bag",
+        "trademark": "Hills and Sons",
+        "stock": 643,
+        "price": 438351.62,
+        "description": "Beatae magnam atque voluptatibus ut molestiae. Error voluptatem veniam vel at accusantium doloribus iure. Ipsum debitis ab deleniti nulla excepturi animi. Iure vero unde tenetur accusantium consequatur tempora.",
+        "tags": "id",
+        "active": false,
+        "id": "6"
+    },
+    {
+        "name": "Synergistic Rubber Plate",
+        "trademark": "Emard Inc",
+        "stock": 631,
+        "price": 377546.75,
+        "description": "Fuga rerum iure aut in soluta. Numquam officia odio adipisci illum. Nam ullam maxime cum dignissimos libero sit.",
+        "tags": "id",
+        "active": false,
+        "id": "7"
+    },
+    {
+        "name": "Enormous Rubber Lamp",
+        "trademark": "Hackett, Waters and Lesch",
+        "stock": 53,
+        "price": 974319.4,
+        "description": "In minus vero. Quod tempora quos necessitatibus. Numquam ipsam omnis dolorum neque esse nobis. Mollitia impedit vero minus. Explicabo saepe quo nihil earum soluta.",
+        "tags": "id",
+        "active": false,
+        "id": "8"
+    },
+    {
+        "name": "Awesome Wool Table",
+        "trademark": "Rowe, McKenzie and Donnelly",
+        "stock": 567,
+        "price": 548569.25,
+        "description": "Eveniet explicabo possimus ipsam fugiat nesciunt assumenda cupiditate. Animi quasi atque. Ullam impedit recusandae dicta magnam blanditiis blanditiis. Reiciendis cupiditate ab accusantium esse eaque rem perspiciatis.",
+        "tags": "id",
+        "active": false,
+        "id": "9"
+    },
+    {
+        "name": "Small Paper Shoes",
+        "trademark": "Grimes-Hettinger",
+        "stock": 872,
+        "price": 967423.2,
+        "description": "Quae cupiditate repellendus esse. Adipisci est animi soluta facere. Ex porro aliquid consectetur. Quidem illo dolore debitis assumenda nisi repudiandae.",
+        "tags": "id",
+        "active": false,
+        "id": "10"
+    },
+    {
+        "name": "Gorgeous Linen Chair",
+        "trademark": "Krajcik LLC",
+        "stock": 750,
+        "price": 578072.3,
+        "description": "Ratione provident dolor. Optio quae occaecati at. Temporibus facere porro in deleniti.",
+        "tags": "id",
+        "active": false,
+        "id": "11"
+    },
+    {
+        "name": "Awesome Bronze Shirt",
+        "trademark": "Hackett, Champlin and Ryan",
+        "stock": 696,
+        "price": 940501.6,
+        "description": "Cum at maxime quos. Alias facilis consequuntur tenetur. Minus odio cupiditate repellendus. Quidem minima tempora eaque aliquid quaerat expedita hic. Doloremque nobis possimus maxime esse.",
+        "tags": "id",
+        "active": false,
+        "id": "12"
+    },
+    {
+        "name": "Awesome Silk Bench",
+        "trademark": "Champlin-Jacobs",
+        "stock": 672,
+        "price": 847387,
+        "description": "Commodi voluptate ipsam quia nostrum iste neque. A recusandae quaerat adipisci at distinctio unde assumenda. Voluptatum in ipsam eos laboriosam distinctio vero.",
+        "tags": "id",
+        "active": false,
+        "id": "13"
+    },
+    {
+        "name": "Enormous Wooden Chair",
+        "trademark": "Hammes and Sons",
+        "stock": 66,
+        "price": 612778.9,
+        "description": "In iure consequatur fugiat facere a accusantium. Quidem saepe assumenda eligendi quam tempore placeat. Quis totam cupiditate explicabo hic reprehenderit. Suscipit iusto esse quos nesciunt temporibus.",
+        "tags": "id",
+        "active": false,
+        "id": "14"
+    },
+    {
+        "name": "Incredible Paper Keyboard",
+        "trademark": "Champlin, Borer and Renner",
+        "stock": 306,
+        "price": 484319.12,
+        "description": "Sit consequuntur non. Perferendis quam cupiditate voluptatibus consequuntur laboriosam eius. Deleniti omnis esse amet sit dolor.",
+        "tags": "id",
+        "active": true,
+        "id": "15"
+    },
+    {
+        "name": "ResourceTwo",
+        "trademark": "Trademark2",
+        "stock": 200,
+        "price": 49.99,
+        "description": "Description for Res2",
+        "tags": "Tag3, Tag4",
+        "active": false,
+        "id": "16"
+    },
+    {
+        "name": "ResourceTwo",
+        "trademark": "Trademark2",
+        "stock": 200,
+        "price": 49.99,
+        "description": "Description for Res2",
+        "tags": "Tag3, Tag4",
+        "active": false,
+        "id": "17"
+    },
+    {
+        "name": "ResourceTwo",
+        "trademark": "Trademark2",
+        "stock": 200,
+        "price": 49.99,
+        "description": "Description for Res2",
+        "tags": "Tag3, Tag4",
+        "active": false,
+        "id": "18"
+    }
+]
+2024-09-14 00:07:37.888 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-09-14 00:07:37.889 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Update resource details
+2024-09-14 00:07:37.889 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-09-14 00:07:37.895 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-09-14 00:07:37.896 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Delete an existing resource
+2024-09-14 00:07:37.896 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-09-14 00:07:38.168 INFO [api.stepDefinitions.ResourceSteps:28] - [
+    {
+        "name": "Gorgeous Paper Computer",
+        "trademark": "Deckow, Robel and Kiehn",
+        "stock": 732,
+        "price": 665822.4,
+        "description": "Delectus reprehenderit ut suscipit consectetur. Repellat vero aspernatur nisi dolorum sapiente nihil. Ab sit est repellendus sit modi. Occaecati nisi soluta voluptas voluptas corrupti. Reprehenderit dolor suscipit nemo beatae quis.",
+        "tags": "id",
+        "active": false,
+        "id": "2"
+    },
+    {
+        "name": "Durable Granite Car",
+        "trademark": "Sipes, O'Keefe and Bailey",
+        "stock": 134,
+        "price": 720908.8,
+        "description": "Dolor cum ratione. Autem nam facere laborum veritatis illo ut ullam. Molestias consequatur quasi consequatur omnis non tempore totam. Neque sint aperiam eligendi aut ut ducimus. Eos cupiditate harum impedit adipisci quo et.",
+        "tags": "id",
+        "active": false,
+        "id": "3"
+    },
+    {
+        "name": "Sleek Rubber Clock",
+        "trademark": "Leuschke Inc",
+        "stock": 143,
+        "price": 447304,
+        "description": "Asperiores enim voluptas totam ullam at. Provident sapiente harum dolores. Nihil ullam error ratione ipsum maiores accusantium consequatur. Aliquid voluptate quia incidunt repellendus illo sequi.",
+        "tags": "id",
+        "active": false,
+        "id": "4"
+    },
+    {
+        "name": "Small Steel Bench",
+        "trademark": "Welch Group",
+        "stock": 573,
+        "price": 626399.06,
+        "description": "Cumque veritatis quibusdam ducimus quasi. Earum explicabo inventore quam. Quod reiciendis aliquid adipisci impedit. Nemo eligendi cum. Illo maxime iure ut consectetur tempore natus quas.",
+        "tags": "id",
+        "active": false,
+        "id": "5"
+    },
+    {
+        "name": "Incredible Leather Bag",
+        "trademark": "Hills and Sons",
+        "stock": 643,
+        "price": 438351.62,
+        "description": "Beatae magnam atque voluptatibus ut molestiae. Error voluptatem veniam vel at accusantium doloribus iure. Ipsum debitis ab deleniti nulla excepturi animi. Iure vero unde tenetur accusantium consequatur tempora.",
+        "tags": "id",
+        "active": false,
+        "id": "6"
+    },
+    {
+        "name": "Synergistic Rubber Plate",
+        "trademark": "Emard Inc",
+        "stock": 631,
+        "price": 377546.75,
+        "description": "Fuga rerum iure aut in soluta. Numquam officia odio adipisci illum. Nam ullam maxime cum dignissimos libero sit.",
+        "tags": "id",
+        "active": false,
+        "id": "7"
+    },
+    {
+        "name": "Enormous Rubber Lamp",
+        "trademark": "Hackett, Waters and Lesch",
+        "stock": 53,
+        "price": 974319.4,
+        "description": "In minus vero. Quod tempora quos necessitatibus. Numquam ipsam omnis dolorum neque esse nobis. Mollitia impedit vero minus. Explicabo saepe quo nihil earum soluta.",
+        "tags": "id",
+        "active": false,
+        "id": "8"
+    },
+    {
+        "name": "Awesome Wool Table",
+        "trademark": "Rowe, McKenzie and Donnelly",
+        "stock": 567,
+        "price": 548569.25,
+        "description": "Eveniet explicabo possimus ipsam fugiat nesciunt assumenda cupiditate. Animi quasi atque. Ullam impedit recusandae dicta magnam blanditiis blanditiis. Reiciendis cupiditate ab accusantium esse eaque rem perspiciatis.",
+        "tags": "id",
+        "active": false,
+        "id": "9"
+    },
+    {
+        "name": "Small Paper Shoes",
+        "trademark": "Grimes-Hettinger",
+        "stock": 872,
+        "price": 967423.2,
+        "description": "Quae cupiditate repellendus esse. Adipisci est animi soluta facere. Ex porro aliquid consectetur. Quidem illo dolore debitis assumenda nisi repudiandae.",
+        "tags": "id",
+        "active": false,
+        "id": "10"
+    },
+    {
+        "name": "Gorgeous Linen Chair",
+        "trademark": "Krajcik LLC",
+        "stock": 750,
+        "price": 578072.3,
+        "description": "Ratione provident dolor. Optio quae occaecati at. Temporibus facere porro in deleniti.",
+        "tags": "id",
+        "active": false,
+        "id": "11"
+    },
+    {
+        "name": "Awesome Bronze Shirt",
+        "trademark": "Hackett, Champlin and Ryan",
+        "stock": 696,
+        "price": 940501.6,
+        "description": "Cum at maxime quos. Alias facilis consequuntur tenetur. Minus odio cupiditate repellendus. Quidem minima tempora eaque aliquid quaerat expedita hic. Doloremque nobis possimus maxime esse.",
+        "tags": "id",
+        "active": false,
+        "id": "12"
+    },
+    {
+        "name": "Awesome Silk Bench",
+        "trademark": "Champlin-Jacobs",
+        "stock": 672,
+        "price": 847387,
+        "description": "Commodi voluptate ipsam quia nostrum iste neque. A recusandae quaerat adipisci at distinctio unde assumenda. Voluptatum in ipsam eos laboriosam distinctio vero.",
+        "tags": "id",
+        "active": false,
+        "id": "13"
+    },
+    {
+        "name": "Enormous Wooden Chair",
+        "trademark": "Hammes and Sons",
+        "stock": 66,
+        "price": 612778.9,
+        "description": "In iure consequatur fugiat facere a accusantium. Quidem saepe assumenda eligendi quam tempore placeat. Quis totam cupiditate explicabo hic reprehenderit. Suscipit iusto esse quos nesciunt temporibus.",
+        "tags": "id",
+        "active": false,
+        "id": "14"
+    },
+    {
+        "name": "Incredible Paper Keyboard",
+        "trademark": "Champlin, Borer and Renner",
+        "stock": 306,
+        "price": 484319.12,
+        "description": "Sit consequuntur non. Perferendis quam cupiditate voluptatibus consequuntur laboriosam eius. Deleniti omnis esse amet sit dolor.",
+        "tags": "id",
+        "active": true,
+        "id": "15"
+    },
+    {
+        "name": "ResourceTwo",
+        "trademark": "Trademark2",
+        "stock": 200,
+        "price": 49.99,
+        "description": "Description for Res2",
+        "tags": "Tag3, Tag4",
+        "active": false,
+        "id": "16"
+    },
+    {
+        "name": "ResourceTwo",
+        "trademark": "Trademark2",
+        "stock": 200,
+        "price": 49.99,
+        "description": "Description for Res2",
+        "tags": "Tag3, Tag4",
+        "active": false,
+        "id": "17"
+    },
+    {
+        "name": "ResourceTwo",
+        "trademark": "Trademark2",
+        "stock": 200,
+        "price": 49.99,
+        "description": "Description for Res2",
+        "tags": "Tag3, Tag4",
+        "active": false,
+        "id": "18"
+    }
+]
+2024-09-14 00:07:38.512 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-09-14 00:07:38.513 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Delete an existing resource
+2024-09-14 00:07:38.513 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************

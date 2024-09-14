@@ -1,0 +1,9 @@
+{
+  "name": "Alice",
+  "lastName": "Johnson",
+  "country": "Canada",
+  "city": "Toronto",
+  "email": "alice.johnson@example.ca",
+  "phone": "416-555-7890",
+  "id": 1
+}
